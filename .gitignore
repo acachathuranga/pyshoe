@@ -9,4 +9,15 @@ __pycache__/
 *.mat
 *.npy
 
+# Exclude data and result folders
+data
+results
+.vscode/
+
+# Exclude ros_data directory content
+ros_data/*
+!ros_data/2020-03-23-17-15-36.csv
+
+
+
 
